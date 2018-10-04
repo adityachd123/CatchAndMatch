@@ -590,12 +590,14 @@ public class Game extends javax.swing.JFrame {
                 score+=2 ;
                 jButton12.setText(""+prev+"");
                 done++;
+                // update scores
             }
             else
             {
                 
                 score-=1 ;
                 b.setText("");
+                // update penalty
             }
             jTextField1.setText(""+score+"");
         }
@@ -635,6 +637,7 @@ public class Game extends javax.swing.JFrame {
         if( done == 8 )
         {
             JOptionPane.showMessageDialog(rootPane, "YOU WINNNNNN \n YOUR SCORE IS : "+score+"");
+            // Showing scores 
         }
     }//GEN-LAST:event_jButton13ActionPerformed
 
@@ -689,6 +692,7 @@ public class Game extends javax.swing.JFrame {
                 score+=2 ;
                 jButton15.setText(""+prev+"");
                 done++;
+                // Updating scores 
             }
             else
             {
